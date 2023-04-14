@@ -1,0 +1,24 @@
+What is TERRAFORM ?
+
+    - Tool for building, Changing and Versioning infrastructure Safely and Efficently.
+    - Free and OpenSource IAC Tool Build by Hashicorp (written in Hashicorp configuration language (HCL))
+
+
+Why Terraform ?
+
+    - Cloud Agnostic
+    - Mainly IAAC with 100+ Providers (AWS, Azure, GCP........100+)
+    - Declarative (NoOrder/Aware-state/Reusable)
+
+Terraform Architecture:
+
+    - Core ------ main.tf, variables.tf, terraform.tfstate. terraform.tfvars
+    - Providers ------ IAAC,PAAS,SAAS
+
+Terraform Install
+
+    -Download Terraform Executable from official Hashicorp site (windows, Linux)
+    -Windows install thru chocolatey software package manager
+        - choco search terraform
+        - choco install terraform
+        - choco upgrade terraform
