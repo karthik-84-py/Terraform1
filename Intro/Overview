@@ -22,3 +22,9 @@ Terraform Install
         - choco search terraform
         - choco install terraform
         - choco upgrade terraform
+        
+Terraform Basic Command Flow:
+
+    - terraform init
+    - terraform plan
+    - terraform apply or terraform apply --auto-approve
